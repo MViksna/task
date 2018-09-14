@@ -1,0 +1,7 @@
+ - git clone https://github.com/MViksna/task.git
+ - cd task
+ - composer install
+ - touch database/database.sqlite
+ - php artisan migrate
+ - php artisan serve --port=8080
+ - http://127.0.0.1:8080
